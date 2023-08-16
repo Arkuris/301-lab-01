@@ -49,3 +49,14 @@ Any environment configuration steps.
 ## Collaborators
 
 List collaborators here.
+
+
+## Number and name of feature: Feature #1: Display Images
+
+Estimate of time needed to complete: 1 hours
+
+Start time: 1430
+
+Finish time: 1530
+
+Actual time needed to complete: _____
