@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import SelectBeast from './select-beast';
+// import SelectBeast from './select-beast';
 import Col from 'react-bootstrap/Col';
 import heart from '../assets/heart.png';
 

@@ -11,7 +11,7 @@ class SelectBeast extends React.Component {
   render() {
     console.log(this.props)
     return (
-      <Modal show={this.props.info} onHide={this.props.toggleInfo}>o
+      <Modal show={this.props.info} onHide={this.props.toggleInfo}>
         <Modal.Title>{this.props.beast.title}</Modal.Title>
         {/* <p>{`Total Likes: ${this.state.likeCount}`}</p> */}
         <img

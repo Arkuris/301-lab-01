@@ -15,9 +15,9 @@ constructor() {
   super()
   this.state = {
     beast: {
-      title: '', 
-      description: '', 
-      image: '',
+      title: 'please work ', 
+      description: 'sheeeeeesh', 
+      image: 'sheeeeeesh',
       },
     info: false,
   }
@@ -28,6 +28,7 @@ constructor() {
 
   setBeast = (index) => {
     const selectedBeast = hornedBeastData[index];
+    console.log('SET BEAST INTO STATE:', selectedBeast);
     this.setState({
       beast: {
         title: selectedBeast.title, 
@@ -43,7 +44,7 @@ constructor() {
           <div>
             <Header />
             <SelectBeast beast={this.state.beast} info={this.state.info} toggleInfo={this.toggleInfo}/>
-            <Gallery data={hornedBeastData} toggleInfo={this.toggleInfo} />
+            <Gallery setBeast={this.setBeast} data={hornedBeastData} toggleInfo={this.toggleInfo} />
             <Footer />
           </div>
         </>
