@@ -60,3 +60,13 @@ Start time: 1430
 Finish time: 1530
 
 Actual time needed to complete: _____
+
+## Number and name of feature: Lab: Class 03
+
+Estimate of time needed to complete: 3 hours
+
+Start time: 1300
+
+Finish time: _____
+
+Actual time needed to complete: _____

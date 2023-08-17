@@ -46,5 +46,9 @@
 }
 
 .heart-button{
-  max-width: 30px;
+  max-width: 20px;
+}
+
+.info-button{
+  margin-top: 20px;
 }
